@@ -288,6 +288,25 @@ img {
   margin-bottom: 0.5rem;
 }
 
+.projects__links{
+  display: flex;
+  column-gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.projects__links a{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.projects__links a:hover{
+  text-decoration: underline;
+}
+
 /*============ FOOTER ============*/
 .footer__container{
   display: flex;
